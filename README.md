@@ -75,5 +75,6 @@ src/
 ```
 
 Last but not least, we're thankful to these companies for offering their services for free:
-<img src="https://raw.githubusercontent.com/Raym-z/bookcase-audiobook-app/main/public/vercel.svg" height="40">
+
+<img src="https://raw.githubusercontent.com/Raym-z/bookcase-audiobook-app/main/public/vercel.svg" alt="Vercel" max-width="100%">
 
