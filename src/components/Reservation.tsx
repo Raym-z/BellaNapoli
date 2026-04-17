@@ -101,7 +101,7 @@ export function Reservation() {
 								</div>
 
 								<div className='grid gap-4 sm:grid-cols-2'>
-									<div className='grid gap-2'>
+									<div className='grid gap-2 min-w-0'>
 										<label htmlFor={dateId} className='text-sm font-medium text-foreground'>
 											Date
 										</label>
@@ -113,7 +113,7 @@ export function Reservation() {
 											className='h-11 w-full min-w-0 rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
 										/>
 									</div>
-									<div className='grid gap-2'>
+									<div className='grid gap-2 min-w-0'>
 										<label htmlFor={timeId} className='text-sm font-medium text-foreground'>
 											Time
 										</label>
@@ -122,7 +122,7 @@ export function Reservation() {
 											type='time'
 											value={payload.time}
 											onChange={(e) => setPayload((p) => ({ ...p, time: e.target.value }))}
-											className='h-11 w-full min-w-0 rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
+											className='h-11 w-full min-w-0 max-w-full rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
 										/>
 									</div>
 								</div>
@@ -135,7 +135,7 @@ export function Reservation() {
 										id={guestsId}
 										value={payload.guests}
 										onChange={(e) => setPayload((p) => ({ ...p, guests: Number(e.target.value) }))}
-										className='h-11 rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
+										className='h-11 w-full min-w-0 max-w-full rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
 									>
 										{Array.from({ length: 12 }, (_, i) => i + 1).map((n) => (
 											<option key={n} value={n}>
