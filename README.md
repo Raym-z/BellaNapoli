@@ -76,5 +76,5 @@ src/
 
 Last but not least, we're thankful to these companies for offering their services for free:
 
-<img src="https://www.svgrepo.com/show/354513/vercel-icon.svg" height="40" />
+<img src="./public/images/vercel.svg" height="40">
 
