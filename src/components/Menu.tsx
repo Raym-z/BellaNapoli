@@ -48,7 +48,7 @@ export function Menu() {
       className="scroll-mt-24 bg-background"
       aria-labelledby="menu-title"
     >
-      <div className="mx-auto w-full max-w-6xl px-4 py-18 sm:px-6">
+      <div className="mx-auto w-full max-w-6xl px-5 py-18 sm:px-6">
         <div className="rounded-[2rem] bg-[#F1EEE3] px-5 py-8 sm:px-8 sm:py-10">
           <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">

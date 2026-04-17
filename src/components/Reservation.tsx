@@ -44,7 +44,7 @@ export function Reservation() {
 
 	return (
 		<section id='reservation' className='scroll-mt-24 bg-background' aria-labelledby='reservation-title'>
-			<div className='mx-auto w-full max-w-6xl px-4 py-18 sm:px-6'>
+			<div className='mx-auto w-full max-w-6xl px-5 py-18 sm:px-6'>
 				<div className='grid gap-10 md:grid-cols-12 md:items-start'>
 					<div className='md:col-span-6'>
 						<p className='text-xs uppercase tracking-[0.28em] text-muted-foreground'>Reservations</p>

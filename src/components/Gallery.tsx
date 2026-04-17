@@ -7,7 +7,7 @@ export function Gallery() {
       className="scroll-mt-24 bg-background"
       aria-labelledby="gallery-title"
     >
-      <div className="mx-auto w-full max-w-6xl px-4 py-18 sm:px-6">
+      <div className="mx-auto w-full max-w-6xl px-5 py-18 sm:px-6">
         <div className="flex items-end justify-between gap-8">
           <div>
             <p className="text-xs uppercase tracking-[0.28em] text-muted-foreground">

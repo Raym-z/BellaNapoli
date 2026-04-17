@@ -7,7 +7,7 @@ export function Contact() {
       className="relative scroll-mt-24 overflow-hidden bg-[linear-gradient(to_bottom,rgba(8,8,8,0.94),rgba(18,18,18,0.97))]"
       aria-labelledby="contact-title"
     >
-      <div className="mx-auto w-full max-w-6xl px-4 py-18 sm:px-6">
+      <div className="mx-auto w-full max-w-6xl px-5 py-18 sm:px-6">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_circle_at_18%_18%,rgba(201,163,92,0.18),transparent_42%),radial-gradient(720px_circle_at_82%_28%,rgba(255,255,255,0.08),transparent_38%)]" />
         <div className="relative">
         <div className="grid gap-10 md:grid-cols-12 md:items-start">
