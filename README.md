@@ -73,3 +73,8 @@ src/
     ├── menu.ts
     └── restaurant.ts
 ```
+
+Last but not least, we're thankful to these companies for offering their services for free:
+
+![Vercel](https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png)
+
