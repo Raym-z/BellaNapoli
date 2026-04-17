@@ -67,11 +67,12 @@ export function Contact() {
             </div>
 
             <div className="mt-4 overflow-hidden rounded-2xl border border-white/10 bg-white/6 backdrop-blur-sm">
-              <div className="flex aspect-[16/7] items-center justify-center px-8 text-center">
-                <p className="text-sm text-white/60">
-                  Map placeholder (embed later if desired)
-                </p>
-              </div>
+              <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=9.183,45.462,9.195,45.466&layer=mapnik&marker=45.464%2C9.189"
+                className="aspect-[16/7] w-full"
+                loading="lazy"
+                title="Bella Napoli location"
+              />
             </div>
           </div>
         </div>
