@@ -76,5 +76,5 @@ src/
 
 Last but not least, we're thankful to these companies for offering their services for free:
 
-<img src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" height="40"/>
+<img src="https://www.svgrepo.com/show/354513/vercel-icon.svg" height="40" />
 
