@@ -30,7 +30,7 @@ A premium, single-page restaurant website showcasing an authentic Italian dining
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/restaurant-profile.git
+git clone https://github.com/Raym-z/restaurant-landing-page.git
 ```
 
 2. Navigate to the project directory:
